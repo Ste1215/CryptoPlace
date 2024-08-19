@@ -13,7 +13,7 @@ const Home = () => {
     }, [allCoins]);
     
     const inputHandler = (e) =>{
-
+        setInput(e.target.value);
     }
 
   return (
